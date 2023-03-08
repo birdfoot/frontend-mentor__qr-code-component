@@ -19,7 +19,7 @@ body {
 
 
 /* CARD */
-.card {
+.qr-code {
   display: flex;
   flex-direction: column;
   width: 320px;
@@ -30,17 +30,17 @@ body {
   box-shadow: 0 3px 30px 10px hsla(0, 0%, 0%, 0.05);
 }
 
-.card__media {
+.qr-code__image-frame {
   width: 100%;
   border-radius: 10px;
 }
 
-.qr-image {
+.qr-code__image {
   max-width: 100%;
   border-radius: inherit;
 }
 
-.card__title {
+.qr-code__title {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.4;
@@ -49,7 +49,7 @@ body {
   margin: 20px 0 16px;
 }
 
-.card__content {
+.qr-code__content {
   letter-spacing: 0.01em;
   text-align: center;
   color: var(--clr-grayish-blue);
